@@ -6,9 +6,8 @@ def main():
         print(f"El mayor de los dos números es {numero_dos}")
     elif numero_dos  > numero_uno:
         print(f"El mayor de los dos números es {numero_uno}")
-    elif numero_dos == numero_uno:
-        print(f"Los dos números son iguales ({numero_uno})")
     else:
-        return
+        return print(f"Los dos números son iguales ({numero_uno})")
+    
 if __name__ == "__main__":
     main()
