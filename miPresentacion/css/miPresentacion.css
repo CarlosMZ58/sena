@@ -66,8 +66,8 @@ body {
         color: aliceblue;
 
         a {
+          color: aliceblue;
           text-decoration: none;
-          font-size: 10px;
         }
       }
 
@@ -115,6 +115,22 @@ body {
         width: 95%;
         margin-left: 40px;
       }
+    }
+  }
+  section {
+    display: flex;
+    width: 100%;
+    height: 450px;
+
+    p {
+      width: 70%;
+      margin: auto;
+      text-align: center;
+      font-size: 17px;
+    }
+    .texto_gym {
+      margin-top: 17px;
+      font-size: 18px;
     }
   }
   footer {
